@@ -1,0 +1,10 @@
+[package]
+name = "python-version-tamer"
+version = "0.1.0"
+edition = "2021"
+
+license = "GPL-3.0-only"
+
+[dependencies]
+clap = { version = "3", features = ["derive"] }
+clap_complete_command = "0.3"
