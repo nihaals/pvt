@@ -1,6 +1,7 @@
 use clap::{IntoApp, Parser, Subcommand};
 
 #[derive(Parser)]
+#[clap(version, author, about, long_about = None)]
 struct Cli {
     #[clap(subcommand)]
     command: Commands,
