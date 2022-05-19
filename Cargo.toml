@@ -1,8 +1,10 @@
 [package]
-name = "python-version-tamer"
+name = "pvt"
 version = "0.1.0"
 edition = "2021"
 
+description = "Python Version Tamer"
+repository = "https://github.com/nihaals/pvt"
 license = "GPL-3.0-only"
 
 [dependencies]

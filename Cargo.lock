@@ -177,7 +177,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "python-version-tamer"
+name = "pvt"
 version = "0.1.0"
 dependencies = [
  "clap",
